@@ -19,5 +19,5 @@ In Japanese culture, **muku** represents a state of being pure, untainted, and f
 ## Quick Start
 Link to `css/muku.css` in your HTML:
 
-html
+```html
 <link rel="stylesheet" href="css/muku.css">
