@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muku.css v0.0.7 | Verification</title>
+    <link rel="stylesheet" href="css/muku.css">
+    <style>
+        /* デバッグ用：コンテンツの外枠のみ定義 */
+        .muku-test-bench {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        section { margin-bottom: 40px; }
+        h2 { border-bottom: 2px solid #000; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+<div class="muku-test-bench">
+    <header>
+        <h1>muku.css v0.0.7 Test Bench</h1>
+        <p>Current Directory: <code>/css/muku.css</code></p>
+    </header>
+
+    <section>
+        <h2>Typographic Reset</h2>
+        <h1>H1: The quick brown fox</h1>
+        <p>Paragraph: <a href="#">Link check</a>, <strong>Strong check</strong>.</p>
+    </section>
+
+    <section>
+        <h2>Form & Input (2026 Ready)</h2>
+        <textarea placeholder="Type here to test 'field-sizing: content'..."></textarea>
+        <div style="margin-top:10px;">
+            <button type="button">Action Button</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Media Alignment</h2>
+        <div style="background:#eee;">
+            <img src="https://via.placeholder.com/400x200" alt="Test">
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
